@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: aquamarine;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.product {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.crate {
+    float: right;
+    width: 60%;
+}
+
+.shopping-cart {
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.item {
+    padding: 5px 15px;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #E1E8EE;
+}
+
+.description {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+}
+
+.description a {
+    text-decoration: none;
+}
+
+.total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.shopcrate {
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}

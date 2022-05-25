@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Корзина</title>
+</head>
+<body>
+    <div class = "product">
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+          Список товаров
+        </div>
+
+        <!-- Товар #1 -->
+        <div class="item">      
+          <div class="description">
+            <span><a href="#" id="product1">Кеды женские <br>PUMA Carina Lift</a></span>
+            <span>Бежевые</span>
+          </div>   
+          <div class="total-price" id = "total-price1">7 799 руб.</div>
+        </div>
+
+        <!-- Товар #2 -->
+        <div class="item">      
+          <div class="description">
+            <span><a href="#" id="product2">Кеды женские <br>Nike Court Legacy</a></span>
+            <span>Белые</span>
+          </div>   
+          <div class="total-price" id = "total-price2">7 599 руб.</div>
+        </div>
+        
+        <!-- Товар #3 -->
+        <div class="item">      
+          <div class="description">
+            <span><a href="#" id="product3">Кроссовки мужские <br>Demix Tsunami 4 NY</a></span>
+            <span>Серые</span>
+          </div>   
+          <div class="total-price" id = "total-price3">2 959 руб.</div>
+        </div>
+
+        <!-- Товар #4 -->
+        <div class="item">      
+            <div class="description">
+              <span><a href="#" id="product4">Кроссовки мужские <br>Demix Atom 2 SMR</a></span>
+              <span>Черные</span>
+            </div>   
+            <div class="total-price" id = "total-price4">3 449 руб.</div>
+        </div>
+
+        <!-- Товар #5 -->
+        <div class="item">      
+            <div class="description">
+              <span><a href="#" id="product5">Кроссовки мужские <br>Reebok Zig Kinetica II Edge</a></span>
+              <span>Черные</span>
+            </div>   
+            <div class="total-price" id = "total-price5">15 599 руб.</div>
+        </div>
+    </div>
+    </div>
+    <div class = "crate">
+        <div class = "shopcrate" id = "shopcrate">
+            <div class="title">
+                Корзина
+                <div style = "float: right;"><img src="trash.png" width="25px" height="25px" href = "" id = "trash"></div>
+            </div>
+            <div class="item" id = "item">      
+                <div class="description" id = "description">
+                  <span id = "trash_text"><h4>В корзине пусто!</h4></span>
+                </div>   
+            </div>
+            <div class = "item">
+              <span id = "allprice">Итого: 0 руб.</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</HTML>
