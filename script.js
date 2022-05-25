@@ -1,6 +1,6 @@
 window.onload = function () {
 
-    let a = document.getElementsByTagName('a');
+    let a = document.getElementsByTagName('img');
     let products = new Array();
     let i = 0;
     let resultprice = 0;
@@ -25,7 +25,7 @@ window.onload = function () {
         }
         if (find == false){
         products[i] = new Array(3);
-        products[i][0] = a[c].textContent;
+        products[i][0] = a[c].title;
         products[i][1] = count;
         products[i][2] = Number(price)*count;
         var nodet = document.createElement('div');
